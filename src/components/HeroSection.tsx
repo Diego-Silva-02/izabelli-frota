@@ -5,7 +5,7 @@ import LogoImage from '../assets/images/logoImage.jpg';
 const HeroSection = () => {
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent("Olá! Gostaria de agendar uma sessão de psicoterapia.");
-    window.open(`https://wa.me/5511999999999?text=${message}`, '_blank');
+    window.open(`https://wa.me/558585276144?text=${message}`, '_blank');
   };
 
   const scrollToContact = () => {
@@ -41,7 +41,7 @@ const HeroSection = () => {
                 className="border-2 border-therapy-mint-dark text-therapy-mint-dark px-8 py-4 rounded-full hover:bg-therapy-mint-dark hover:text-white transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2 font-medium"
               >
                 <MessageCircle size={20} />
-                WhatsApp
+                WhatsAppa
               </button>
             </div>
             <div className="mt-8 flex items-center gap-8 text-sm text-gray-500">

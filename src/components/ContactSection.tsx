@@ -44,7 +44,7 @@ Preferência: ${formData.preference === 'online' ? 'Atendimento Online' : 'Atend
 
 Aguardo seu retorno!`);
     
-    window.open(`https://wa.me/5511999999999?text=${message}`, '_blank');
+    window.open(`https://wa.me/558585276144?text=${message}`, '_blank');
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
