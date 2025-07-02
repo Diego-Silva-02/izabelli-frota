@@ -33,7 +33,7 @@ const Header = () => {
               onClick={() => scrollToSection('atendimento')}
               className="text-gray-700 hover:text-therapy-skin transition-colors"
             >
-              Atendimento
+              Atendimentos
             </button>
             <button 
               onClick={() => scrollToSection('publico')}
