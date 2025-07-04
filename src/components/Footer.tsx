@@ -27,7 +27,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-gray-300">
                 <Phone size={16} />
-                <span>(11) 99999-9999</span>
+                <span>(85) 98527-6144</span>
               </div>
               <div className="flex items-center gap-3 text-gray-300">
                 <Mail size={16} />
@@ -45,7 +45,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Siga-me</h4>
             <div className="flex gap-4 mb-6">
               <a 
-                href="https://instagram.com/izabellifrota" 
+                href="https://instagram.com/psi.izabellifrota" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-gray-800 p-3 rounded-full hover:bg-therapy-blue-dark transition-colors"

@@ -76,7 +76,11 @@ export default {
 					'lavender-dark': '#7C3AED',
 					sage: '#F6F8F0',
 					'sage-dark': '#65A30D',
-					skin: '#BC9F8F'
+					skin: '#B99988',
+					'skin-dark': '#7C5F50',
+					'light-pink': '#E9DDD7',
+					'off-white': '#F5F2F0',
+					'light-gray': '#3A3A3A'
 				}
 			},
 			borderRadius: {

@@ -25,28 +25,28 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <button 
               onClick={() => scrollToSection('sobre')}
-              className="text-gray-700 hover:text-therapy-skin transition-colors"
+              className="text-gray-700 hover:text-therapy-skin-dark transition-colors"
             >
               Sobre
             </button>
             <button 
               onClick={() => scrollToSection('atendimento')}
-              className="text-gray-700 hover:text-therapy-skin transition-colors"
+              className="text-gray-700 hover:text-therapy-skin-dark transition-colors"
             >
               Atendimentos
             </button>
             <button 
               onClick={() => scrollToSection('publico')}
-              className="text-gray-700 hover:text-therapy-skin transition-colors"
+              className="text-gray-700 hover:text-therapy-skin-dark transition-colors"
             >
               Público
             </button>
-            <button 
+            {/* <button 
               onClick={() => scrollToSection('contato')}
               className="bg-therapy-skin text-white px-6 py-2 rounded-full hover:brightness-110 transition-colors"
             >
               Agendar Sessão
-            </button>
+            </button> */}
           </nav>
 
           {/* Mobile Menu Button */}

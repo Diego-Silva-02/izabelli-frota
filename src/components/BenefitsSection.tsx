@@ -60,7 +60,7 @@ const BenefitsSection = () => {
           ))}
         </div>
 
-        <div className="mt-16 bg-gradient-to-r from-therapy-blue to-therapy-lavender p-8 rounded-3xl text-center">
+        {/* <div className="mt-16 bg-gradient-to-r from-therapy-blue to-therapy-lavender p-8 rounded-3xl text-center">
           <h3 className="text-2xl font-semibold text-gray-900 mb-4">
             Pronto para começar sua transformação?
           </h3>
@@ -77,7 +77,7 @@ const BenefitsSection = () => {
           >
             Agendar Minha Primeira Sessão
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );
