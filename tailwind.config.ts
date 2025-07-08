@@ -80,7 +80,9 @@ export default {
 					'skin-dark': '#7C5F50',
 					'light-pink': '#E9DDD7',
 					'off-white': '#F5F2F0',
-					'light-gray': '#3A3A3A'
+					'rose-white': '#FCFAF9',
+					'light-gray': '#3A3A3A',
+					'light-brown': '#5C504C'
 				}
 			},
 			borderRadius: {
