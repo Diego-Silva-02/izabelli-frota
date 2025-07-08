@@ -52,7 +52,7 @@ const HowItWorksSection = () => {
         {/* Como funciona */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-playfair font-semibold text-gray-900 mb-4">
-            Como funciona o <span className="text-therapy-blue-dark">atendimento</span>
+            Como funciona o <span className="text-therapy-skin">atendimento</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Um processo simples e acolhedor para você começar sua jornada de autoconhecimento
@@ -65,15 +65,15 @@ const HowItWorksSection = () => {
               <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
                 <div className="flex items-center gap-4 mb-4">
                   <div className="bg-therapy-lavender p-3 rounded-xl">
-                    <step.icon size={24} className="text-therapy-lavender-dark" />
+                    <step.icon size={24} className="text-therapy-skin-dark" />
                   </div>
-                  <span className="text-3xl font-bold text-therapy-blue-dark opacity-20">{step.number}</span>
+                  <span className="text-3xl font-bold text-therapy-skin-dark opacity-30">{step.number}</span>
                 </div>
                 <h3 className="font-semibold text-gray-900 mb-2">{step.title}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">{step.description}</p>
               </div>
               {index < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-16 -right-4 w-8 h-0.5 bg-gradient-to-r from-therapy-blue-dark to-transparent"></div>
+                <div className="hidden lg:block absolute top-16 -right-4 w-8 h-0.5 bg-gradient-to-r from-therapy-skin-dark to-transparent"></div>
               )}
             </div>
           ))}
@@ -82,7 +82,7 @@ const HowItWorksSection = () => {
         {/* Modalidades */}
         <div className="text-center mb-12">
           <h3 className="text-3xl font-playfair font-semibold text-gray-900 mb-4">
-            Modalidades de <span className="text-therapy-mint-dark">Atendimento</span>
+            Modalidades de <span className="text-therapy-skin">Atendimento</span>
           </h3>
           <p className="text-lg text-gray-600">
             Escolha o formato que melhor se adapta ao seu estilo de vida

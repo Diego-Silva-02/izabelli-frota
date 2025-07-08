@@ -64,7 +64,7 @@ const AboutSection = () => {
                 <div key={index} className="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-shadow">
                   <div className="flex items-start gap-3">
                     <div className="p-2 bg-therapy-blue rounded-lg">
-                      <qual.icon size={20} className="text-therapy-skin" />
+                      <qual.icon size={20} className="text-therapy-skin-dark" />
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-1">{qual.title}</h3>

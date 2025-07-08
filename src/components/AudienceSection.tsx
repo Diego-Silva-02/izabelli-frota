@@ -37,7 +37,7 @@ const AudienceSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-playfair font-semibold text-gray-900 mb-4">
-            Quem eu <span className="text-therapy-blue-dark">atendo</span>
+            Quem eu <span className="text-therapy-skin">atendo</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Cada fase da vida apresenta desafios únicos. Ofereço suporte especializado 
@@ -87,7 +87,7 @@ const AudienceSection = () => {
                 const element = document.getElementById('contato');
                 if (element) element.scrollIntoView({ behavior: 'smooth' });
               }}
-              className="bg-therapy-blue-dark text-white px-8 py-3 rounded-full hover:bg-blue-700 transition-colors"
+              className="bg-therapy-skin text-white px-8 py-3 rounded-full hover:bg-therapy-skin-dark transition-colors"
             >
               Fale Comigo
             </button>
