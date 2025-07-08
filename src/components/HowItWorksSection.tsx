@@ -6,13 +6,13 @@ const HowItWorksSection = () => {
     {
       number: "01",
       title: "Primeiro Contato",
-      description: "Entre em contato via WhatsApp ou formulário para conversarmos sobre suas necessidades",
+      description: "Entre em contato via WhatsApp ou Instagram para conversarmos sobre suas necessidades",
       icon: MessageSquare
     },
     {
       number: "02", 
       title: "Agendamento",
-      description: "Escolha o melhor horário e modalidade (online ou presencial) que funciona para você",
+      description: "Escolha o melhor horário e a melhor modalidade (online ou presencial) que funciona para você",
       icon: Calendar
     },
     {
