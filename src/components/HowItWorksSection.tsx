@@ -35,14 +35,14 @@ const HowItWorksSection = () => {
       title: "Atendimento Online",
       description: "Terapia por videochamada segura",
       benefits: ["Conforto da sua casa", "Flexibilidade de horários", "Mesma eficácia do presencial"],
-      bgColor: "bg-therapy-blue"
+      bgColor: "bg-therapy-mint"
     },
     {
       icon: MapPin,
       title: "Atendimento Presencial", 
       description: "Consultório acolhedor e privativo",
       benefits: ["Ambiente profissional", "Contato direto", "Espaço reservado"],
-      bgColor: "bg-therapy-mint"
+      bgColor: "bg-therapy-sage"
     }
   ];
 
@@ -62,18 +62,18 @@ const HowItWorksSection = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
           {steps.map((step, index) => (
             <div key={index} className="relative">
-              <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+              <div className="bg-therapy-rose-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="bg-therapy-lavender p-3 rounded-xl">
+                  <div className="bg-therapy-lavender p-3 rounded-xl opacity-60">
                     <step.icon size={24} className="text-therapy-skin-dark" />
                   </div>
-                  <span className="text-3xl font-bold text-therapy-skin-dark opacity-30">{step.number}</span>
+                  <span className="text-3xl font-bold text-therapy-skin-dark opacity-60">{step.number}</span>
                 </div>
                 <h3 className="font-semibold text-gray-900 mb-2">{step.title}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">{step.description}</p>
               </div>
               {index < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-16 -right-4 w-8 h-0.5 bg-gradient-to-r from-therapy-skin-dark to-transparent"></div>
+                <div className="hidden lg:block absolute top-16 -right-4 w-8 h-0.5 bg-gradient-to-r from-therapy-grayish-orange to-transparent"></div>
               )}
             </div>
           ))}
@@ -81,10 +81,10 @@ const HowItWorksSection = () => {
 
         {/* Modalidades */}
         <div className="text-center mb-12">
-          <h3 className="text-3xl font-playfair font-semibold text-gray-900 mb-4">
+          <h3 className="text-3xl font-playfair font-semibold text-therapy-light-gray mb-4">
             Modalidades de <span className="text-therapy-skin">Atendimento</span>
           </h3>
-          <p className="text-lg text-gray-600">
+          <p className="text-lg text-therapy-light-gray">
             Escolha o formato que melhor se adapta ao seu estilo de vida
           </p>
         </div>
@@ -93,14 +93,14 @@ const HowItWorksSection = () => {
           {modalities.map((modality, index) => (
             <div key={index} className={`${modality.bgColor} p-8 rounded-3xl text-center hover:transform hover:scale-105 transition-transform duration-300`}>
               <div className="bg-white p-4 rounded-2xl inline-block mb-6">
-                <modality.icon size={32} className="text-gray-800" />
+                <modality.icon size={32} className="text-therapy-light-gray" />
               </div>
-              <h3 className="text-2xl font-semibold text-gray-900 mb-2">{modality.title}</h3>
-              <p className="text-gray-700 mb-6">{modality.description}</p>
+              <h3 className="text-2xl font-semibold text-therapy-light-gray mb-2">{modality.title}</h3>
+              <p className="text-therapy-light-brown mb-6">{modality.description}</p>
               <div className="space-y-3">
                 {modality.benefits.map((benefit, idx) => (
-                  <div key={idx} className="flex items-center justify-center gap-2 text-gray-700">
-                    <CheckCircle size={16} className="text-green-600" />
+                  <div key={idx} className="flex items-center justify-center gap-2 text-therapy-light-gray">
+                    <CheckCircle size={16} className="text-therapy-sage-dark" />
                     <span className="text-sm">{benefit}</span>
                   </div>
                 ))}
