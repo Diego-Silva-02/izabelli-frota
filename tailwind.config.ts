@@ -83,7 +83,8 @@ export default {
 					'rose-white': '#FCFAF9',
 					'light-gray': '#3A3A3A',
 					'light-brown': '#5C504C',
-					'grayish-orange': '#D3C5BD'
+					'grayish-orange': '#D3C5BD',
+					'eerie-black': '#1F1F1F'
 				}
 			},
 			borderRadius: {
