@@ -46,12 +46,12 @@ const Header = () => {
             >
               Público
             </button>
-            {/* <button 
-              onClick={() => scrollToSection('contato')}
+            <button 
+              onClick={() => handleWhatsAppClick()}
               className="bg-therapy-skin text-white px-6 py-2 rounded-full hover:brightness-110 transition-colors"
             >
               Agendar Sessão
-            </button> */}
+            </button>
           </nav>
 
           {/* Mobile Menu Button */}
