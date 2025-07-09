@@ -8,12 +8,12 @@ const HeroSection = () => {
     window.open(`https://wa.me/558585276144?text=${message}`, '_blank');
   };
 
-  const scrollToContact = () => {
-    const element = document.getElementById('contato');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+  // const scrollToContact = () => {
+  //   const element = document.getElementById('contato');
+  //   if (element) {
+  //     element.scrollIntoView({ behavior: 'smooth' });
+  //   }
+  // };
 
   return (
     // from-therapy-blue via-white to-therapy-mint
