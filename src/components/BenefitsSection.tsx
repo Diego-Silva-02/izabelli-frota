@@ -42,7 +42,7 @@ const BenefitsSection = () => {
           <h2 className="text-4xl font-playfair font-semibold text-gray-900 mb-4">
             Benefícios da <span className="text-therapy-skin">Terapia</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-therapy-eerie-black max-w-3xl mx-auto">
             A psicoterapia oferece ferramentas concretas para transformar sua vida, 
             promovendo bem-estar duradouro e crescimento pessoal significativo.
           </p>
@@ -50,9 +50,9 @@ const BenefitsSection = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => (
-            <div key={index} className="group bg-gradient-to-br from-gray-50 to-white p-6 rounded-2xl hover:shadow-xl transition-all duration-300 hover:transform hover:-translate-y-2 border border-gray-100">
-              <div className="bg-therapy-blue p-3 rounded-xl inline-block mb-4 group-hover:scale-110 transition-transform">
-                <benefit.icon size={24} className="text-therapy-skin-dark" />
+            <div key={index} className="group bg-gradient-to-br bg-therapy-off-white p-8 rounded-2xl hover:shadow-xl transition-all duration-300 hover:transform hover:-translate-y-2 border border-gray-100">
+              <div className="bg-therapy-skin p-3 rounded-xl inline-block mb-4 group-hover:scale-110 transition-transform">
+                <benefit.icon size={24} className="text-therapy-mint" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">{benefit.title}</h3>
               <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
