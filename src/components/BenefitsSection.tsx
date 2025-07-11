@@ -42,7 +42,7 @@ const BenefitsSection = () => {
           <h2 className="text-4xl font-playfair font-semibold text-gray-900 mb-4">
             Benefícios da <span className="text-therapy-skin">Terapia</span>
           </h2>
-          <p className="text-xl text-therapy-eerie-black max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             A psicoterapia oferece ferramentas concretas para transformar sua vida, 
             promovendo bem-estar duradouro e crescimento pessoal significativo.
           </p>
