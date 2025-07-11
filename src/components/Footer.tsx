@@ -5,17 +5,17 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-white py-16">
+    <footer className="bg-therapy-light-gray text-white py-16">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8">
           {/* Informações principais */}
           <div>
-            <h3 className="text-2xl font-playfair font-semibold mb-4">Dra. Izabelli Frota</h3>
+            <h3 className="text-white text-2xl font-playfair font-semibold mb-4">Dra. Izabelli Frota</h3>
             <p className="text-gray-300 mb-4 leading-relaxed">
               Psicóloga Clínica especializada em Terapia Cognitivo-Comportamental, 
               oferecendo atendimento humanizado para adolescentes, adultos e casais.
             </p>
-            <div className="flex items-center gap-2 text-sm text-gray-400">
+            <div className="flex items-center gap-2 text-sm text-gray-300">
               <div className="w-2 h-2 bg-therapy-mint-dark rounded-full"></div>
               <span>CRP 06/123456</span>
             </div>
@@ -48,19 +48,19 @@ const Footer = () => {
                 href="https://instagram.com/psi.izabellifrota" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-gray-800 p-3 rounded-full hover:bg-therapy-blue-dark transition-colors"
+                className="bg-therapy-light-brown p-3 rounded-full hover:bg-therapy-skin transition-colors"
               >
                 <Instagram size={20} />
               </a>
               <a 
                 href="mailto:contato@izabellifrota.com"
-                className="bg-gray-800 p-3 rounded-full hover:bg-therapy-mint-dark transition-colors"
+                className="bg-therapy-light-brown p-3 rounded-full hover:bg-therapy-skin transition-colors"
               >
                 <Mail size={20} />
               </a>
             </div>
             
-            <div className="space-y-2 text-sm text-gray-400">
+            <div className="space-y-2 text-sm text-gray-300">
               <p>• Política de Privacidade</p>
               <p>• Termos de Uso</p>
               <p>• Código de Ética Profissional</p>
@@ -68,12 +68,12 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-12 pt-8">
+        <div className="border-t border-gray-500 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-gray-400 text-sm">
+            <p className="text-gray-300 text-sm">
               © {currentYear} Dra. Izabelli Frota. Todos os direitos reservados.
             </p>
-            <div className="flex items-center gap-2 text-gray-400 text-sm">
+            <div className="flex items-center gap-2 text-gray-300 text-sm">
               <span>Feito com</span>
               <Heart size={14} className="text-red-400 fill-current" />
               <span>para cuidar da sua saúde mental</span>
