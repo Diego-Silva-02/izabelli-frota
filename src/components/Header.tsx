@@ -48,7 +48,7 @@ const Header = () => {
             </button>
             <button 
               onClick={() => handleWhatsAppClick()}
-              className="bg-therapy-skin text-white px-6 py-2 rounded-full hover:brightness-110 transition-colors"
+              className="bg-therapy-skin text-white px-6 py-2 rounded-full hover:bg-therapy-skin-dark transition-colors"
             >
               Agendar Sessão
             </button>
