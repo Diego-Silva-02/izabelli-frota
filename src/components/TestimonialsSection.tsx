@@ -96,7 +96,7 @@ const TestimonialsSection = () => {
               Sua história pode ser a próxima!
             </h3>
             <p className="text-gray-600 mb-4">
-              Junte-se a centenas de pessoas que já transformaram suas vidas com terapia.
+              Junte-se a milhares de pessoas que já transformaram suas vidas com terapia.
             </p>
             <button 
               onClick={() => handleWhatsAppClick()}

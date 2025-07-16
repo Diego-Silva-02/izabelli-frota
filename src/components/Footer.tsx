@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-therapy-light-gray text-white py-16">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {/* Informações principais */}
           <div>
             <h3 className="text-white text-2xl font-playfair font-semibold mb-4">Dra. Izabelli Frota</h3>
@@ -17,7 +17,7 @@ const Footer = () => {
             </p>
             <div className="flex items-center gap-2 text-sm text-gray-300">
               <div className="w-2 h-2 bg-therapy-mint-dark rounded-full"></div>
-              <span>CRP 06/123456</span>
+              <span>CRP 11/01788</span>
             </div>
           </div>
 
@@ -31,17 +31,17 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3 text-gray-300">
                 <Mail size={16} />
-                <span>contato@izabellifrota.com</span>
+                <span>izabelli_frota@hotmail.com</span>
               </div>
               <div className="flex items-center gap-3 text-gray-300">
                 <MapPin size={16} />
-                <span>Rua das Flores, 123 - São Paulo, SP</span>
+                <span>Av. Washington Soares, 855 - Guararapes, Fortaleza - CE, 60811-341</span>
               </div>
             </div>
           </div>
 
           {/* Links e redes sociais */}
-          <div>
+          {/* <div>
             <h4 className="text-lg font-semibold mb-4">Siga-me</h4>
             <div className="flex gap-4 mb-6">
               <a 
@@ -53,7 +53,7 @@ const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a 
-                href="mailto:contato@izabellifrota.com"
+                href="mailto:izabelli_frota@hotmail.com"
                 className="bg-therapy-light-brown p-3 rounded-full hover:bg-therapy-skin transition-colors"
               >
                 <Mail size={20} />
@@ -65,7 +65,7 @@ const Footer = () => {
               <p>• Termos de Uso</p>
               <p>• Código de Ética Profissional</p>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="border-t border-gray-500 mt-12 pt-8">

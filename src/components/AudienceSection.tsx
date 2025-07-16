@@ -32,6 +32,11 @@ const AudienceSection = () => {
     }
   ];
 
+  const handleWhatsAppClick = () => {
+    const message = encodeURIComponent("Olá! Gostaria de agendar uma sessão de psicoterapia.");
+    window.open(`https://wa.me/558585276144?text=${message}`, '_blank');
+  };
+
   return (
     <section id="publico" className="py-20 bg-gradient-to-br from-therapy-sage to-white">
       <div className="container mx-auto px-4">
@@ -83,10 +88,7 @@ const AudienceSection = () => {
               Entre em contato para conversarmos sobre como posso ajudar você.
             </p>
             <button 
-              onClick={() => {
-                const element = document.getElementById('contato');
-                if (element) element.scrollIntoView({ behavior: 'smooth' });
-              }}
+              onClick={() => handleWhatsAppClick()}
               className="bg-therapy-skin text-white px-8 py-3 rounded-full hover:bg-therapy-skin-dark transition-colors"
             >
               Fale Comigo

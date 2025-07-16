@@ -1,6 +1,6 @@
 
 import { MessageCircle, Calendar } from 'lucide-react';
-import LogoImage from '../assets/images/logoImage.jpg';
+import ProfileImage from '../assets/images/profileImage2.jpg';
 
 const HeroSection = () => {
   const handleWhatsAppClick = () => {
@@ -24,9 +24,9 @@ const HeroSection = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-therapy-lavender to-therapy-sage rounded-3xl transform rotate-3 animate-float"></div>
             <img 
               // src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=600&h=600&fit=crop&crop=center&auto=format&q=80"
-              src={LogoImage} 
+              src={ProfileImage} 
               alt="Ambiente acolhedor de terapia"
-              className="relative rounded-3xl shadow-2xl w-full h-[500px] object-cover"
+              className="relative rounded-3xl shadow-2xl w-full h-[600px] object-cover"
             />
             <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-lg max-w-xs">
               <p className="text-sm text-gray-600 italic mb-2">
@@ -67,11 +67,15 @@ const HeroSection = () => {
             <div className="mt-8 flex items-center gap-8 text-sm text-gray-500">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-therapy-mint-dark rounded-full"></div>
-                <span>CRP 06/123456</span>
+                <span>CRP 11/01788</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-therapy-lavender-dark rounded-full"></div>
-                <span>5+ anos de experiência</span>
+                <span>20+ anos de experiência</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 bg-therapy-blue-dark rounded-full"></div>
+                <span>35+ mil atendimentos</span>
               </div>
             </div>
           </div>

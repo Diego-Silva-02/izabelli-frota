@@ -1,6 +1,7 @@
 
 import { GraduationCap, Heart, Users, Award } from 'lucide-react';
 import ProfileImage from '../assets/images/profileImage2.jpg';
+import LogoImage from '../assets/images/newlogoSmall.jpg';
 
 const AboutSection = () => {
   const qualifications = [
@@ -22,7 +23,7 @@ const AboutSection = () => {
     {
       icon: Award,
       title: "Resultados Comprovados",
-      description: "Centenas de vidas transformadas"
+      description: "Milhares de vidas transformadas"
     }
   ];
 
@@ -33,13 +34,13 @@ const AboutSection = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-br from-therapy-light-pink to-therapy-light-pink rounded-3xl transform -rotate-3"></div>
             <img 
-              src={ProfileImage}
+              src={LogoImage}
               alt="Dra. Izabelli Frota"
               className="relative rounded-3xl shadow-xl w-full h-[600px] object-cover"
             />
             <div className="absolute -top-6 -right-6 bg-therapy-light-pink p-4 rounded-2xl shadow-lg">
               <div className="text-center">
-                <div className="text-3xl font-bold text-therapy-skin-dark">5+</div>
+                <div className="text-3xl font-bold text-therapy-skin-dark">20+</div>
                 <div className="text-sm text-therapy-light-gray">Anos de experiência</div>
               </div>
             </div>

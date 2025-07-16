@@ -216,7 +216,7 @@ Aguardo seu retorno!`);
                   </div>
                   <div>
                     <p className="font-medium text-gray-900">E-mail</p>
-                    <p className="text-gray-600">contato@izabellifrota.com</p>
+                    <p className="text-gray-600">izabelli_frota@hotmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
