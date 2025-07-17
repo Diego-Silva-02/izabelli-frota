@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-therapy-light-gray text-white py-16">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           {/* Informações principais */}
           <div>
             <h3 className="text-white text-2xl font-playfair font-semibold mb-4">Dra. Izabelli Frota</h3>
@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
 
           {/* Links e redes sociais */}
-          {/* <div>
+          <div>
             <h4 className="text-lg font-semibold mb-4">Siga-me</h4>
             <div className="flex gap-4 mb-6">
               <a 
@@ -65,7 +65,7 @@ const Footer = () => {
               <p>• Termos de Uso</p>
               <p>• Código de Ética Profissional</p>
             </div>
-          </div> */}
+          </div>
         </div>
 
         <div className="border-t border-gray-500 mt-12 pt-8">

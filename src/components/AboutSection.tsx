@@ -40,7 +40,7 @@ const AboutSection = () => {
             />
             <div className="absolute -top-6 -right-6 bg-therapy-light-pink p-4 rounded-2xl shadow-lg">
               <div className="text-center">
-                <div className="text-3xl font-bold text-therapy-skin-dark">20+</div>
+                <div className="text-3xl font-bold text-therapy-skin-dark">+20</div>
                 <div className="text-sm text-therapy-light-gray">Anos de experiência</div>
               </div>
             </div>
@@ -51,13 +51,16 @@ const AboutSection = () => {
               Sobre a <span className="text-therapy-skin">Dra. Izabelli</span>
             </h2>
             <p className="text-lg text-therapy-light-gray mb-6 leading-relaxed">
-              Olá! Sou a Dra. Izabelli Frota, psicóloga clínica formada pela Universidade de São Paulo, 
-              com especialização em Terapia Cognitivo-Comportamental e Terapia de Casal.
+              Olá! Sou a Dra. Izabelli Frota, psicóloga clínica formada pela Universidade de Fortaleza (UNIFOR), 
+              com formação em Gestalt Terapia, especialização em Terapia Cognitivo-Comportamental e Psicoterapia de Casal. Pós-graduação em transtornos alimentares e obesidade.
             </p>
             <p className="text-lg text-therapy-light-gray mb-8 leading-relaxed">
               Acredito que cada pessoa possui recursos internos únicos para superar desafios. 
               Meu papel é oferecer um <span className="text-therapy-skin-dark">espaço seguro</span>, <span className="text-therapy-skin-dark">livre de julgamentos</span>, onde você pode 
               explorar seus sentimentos e desenvolver <span className="text-therapy-skin-dark">estratégias eficazes</span> para uma vida mais equilibrada.
+            </p>
+            <p className="text-lg text-therapy-light-gray mb-8 leading-relaxed">
+              Atendendo pacientes brasileiros no exterior em <span className="text-therapy-skin-dark">Vancouver</span> (Canadá), <span className="text-therapy-skin-dark">Alabama</span> (EUA), <span className="text-therapy-skin-dark">Tokyo</span> (Japão), <span className="text-therapy-skin-dark">Bali</span> (Indonésia), <span className="text-therapy-skin-dark">Viena</span> (Austria), <span className="text-therapy-skin-dark">Lisboa</span> (Portugal).
             </p>
             
             <div className="grid sm:grid-cols-2 gap-4 mb-8">

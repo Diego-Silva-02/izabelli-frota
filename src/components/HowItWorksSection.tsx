@@ -6,7 +6,7 @@ const HowItWorksSection = () => {
     {
       number: "01",
       title: "Primeiro Contato",
-      description: "Entre em contato via WhatsApp ou Instagram para conversarmos sobre suas necessidades",
+      description: "Entre em contato via WhatsApp para conversarmos sobre suas necessidades",
       icon: MessageSquare
     },
     {
