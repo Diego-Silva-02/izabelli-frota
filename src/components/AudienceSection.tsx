@@ -17,7 +17,7 @@ const AudienceSection = () => {
       title: "Adultos", 
       subtitle: "Autoconhecimento, equilíbrio e saúde mental",
       description: "Desenvolvendo ferramentas para uma vida adulta mais plena e equilibrada",
-      issues: ["Ansiedade", "Depressão", "Estresse", "Autoconhecimento", "Mudanças de vida"],
+      issues: ["Ansiedade", "Depressão", "Estresse", "Relacionamentos", "Autoconhecimento", "Mudanças de vida"],
       bgColor: "bg-therapy-mint",
       textColor: "text-therapy-mint-dark"
     },

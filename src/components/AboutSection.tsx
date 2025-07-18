@@ -1,6 +1,5 @@
 
 import { GraduationCap, Heart, Users, Award } from 'lucide-react';
-import ProfileImage from '../assets/images/profileImage2.jpg';
 import LogoImage from '../assets/images/newlogoSmall.jpg';
 
 const AboutSection = () => {
@@ -8,7 +7,7 @@ const AboutSection = () => {
     {
       icon: GraduationCap,
       title: "Formação Sólida",
-      description: "Psicologia pela USP, especialização em TCC"
+      description: "Psicologia pela Unifor, especialização em TCC"
     },
     {
       icon: Heart,
@@ -36,7 +35,7 @@ const AboutSection = () => {
             <img 
               src={LogoImage}
               alt="Dra. Izabelli Frota"
-              className="relative rounded-3xl shadow-xl w-full h-[600px] object-cover"
+              className="relative rounded-3xl shadow-xl w-full h-[700px] object-cover"
             />
             <div className="absolute -top-6 -right-6 bg-therapy-light-pink p-4 rounded-2xl shadow-lg">
               <div className="text-center">
@@ -51,7 +50,7 @@ const AboutSection = () => {
               Sobre a <span className="text-therapy-skin">Dra. Izabelli</span>
             </h2>
             <p className="text-lg text-therapy-light-gray mb-6 leading-relaxed">
-              Olá! Sou a Dra. Izabelli Frota, psicóloga clínica formada pela Universidade de Fortaleza (UNIFOR), 
+              Olá! Sou a Dra. Izabelli Frota, psicóloga clínica formada pela Universidade de Fortaleza, 
               com formação em Gestalt Terapia, especialização em Terapia Cognitivo-Comportamental e Psicoterapia de Casal. Pós-graduação em transtornos alimentares e obesidade.
             </p>
             <p className="text-lg text-therapy-light-gray mb-8 leading-relaxed">
