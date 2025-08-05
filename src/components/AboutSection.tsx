@@ -54,9 +54,12 @@ const AboutSection = () => {
               com formação em Gestalt Terapia, especialização em Terapia Cognitivo-Comportamental e Psicoterapia de Casal. Pós-graduação em transtornos alimentares e obesidade.
             </p>
             <p className="text-lg text-therapy-light-gray mb-8 leading-relaxed">
-              Acredito que cada pessoa possui recursos internos únicos para superar desafios. 
-              Meu papel é oferecer um <span className="text-therapy-skin-dark">espaço seguro</span>, <span className="text-therapy-skin-dark">livre de julgamentos</span>, onde você pode 
-              explorar seus sentimentos e desenvolver <span className="text-therapy-skin-dark">estratégias eficazes</span> para uma vida mais equilibrada.
+              Às vezes o peito fica apertado não pelo que falamos, mas
+              <span className="text-therapy-skin-dark"> por aquilo que escondemos</span>
+              . Guardar palavras pode até parecer proteção, 
+              <span className="text-therapy-skin-dark"> mas também sufoca</span>.
+               Permita-se colocar pra fora, dizer o que sente, libertar o que foi silenciado.
+              <span className="text-therapy-skin-dark"> Dar voz aos sentimentos é dar espaço ao alívio e à cura.</span>
             </p>
             <p className="text-lg text-therapy-light-gray mb-8 leading-relaxed">
               Atendendo pacientes brasileiros no exterior em <span className="text-therapy-skin-dark">Vancouver</span> (Canadá), <span className="text-therapy-skin-dark">Alabama</span> (EUA), <span className="text-therapy-skin-dark">Tokyo</span> (Japão), <span className="text-therapy-skin-dark">Bali</span> (Indonésia), <span className="text-therapy-skin-dark">Viena</span> (Austria), <span className="text-therapy-skin-dark">Lisboa</span> (Portugal).

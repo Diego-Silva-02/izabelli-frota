@@ -30,19 +30,22 @@ const HeroSection = () => {
             />
             <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-lg max-w-xs">
               <p className="text-sm text-gray-600 italic mb-2">
-                "Um espaço seguro para encontrar o equilíbrio emocional que você busca."
+                "O invisível também faz parte do processo."
               </p>
               <div className="flex items-center gap-2 text-xs text-therapy-skin-dark font-medium">
                 <div className="w-1 h-1 bg-therapy-skin-dark rounded-full"></div>
-                <span>Abordagem humanizada</span>
+                <span>Você merece cuidado!</span>
               </div>
             </div>
           </div>
           
           <div className="animate-fade-in">
             <h1 className="text-4xl md:text-6xl font-playfair font-semibold text-therapy-light-gray leading-tight mb-6">
-              Você não precisa enfrentar 
-              <span className="text-therapy-skin"> tudo sozinho(a)</span>
+              Toda
+              <span className="text-therapy-skin"> cura </span>
+              começa com a
+              <span className="text-therapy-skin"> coragem </span>
+              de olhar para o que dói.
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
               Terapia para adolescentes, adultos e casais – online ou presencial, 

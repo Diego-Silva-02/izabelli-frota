@@ -51,7 +51,7 @@ const TestimonialsSection = () => {
             Depoimentos de <span className="text-therapy-skin">Pacientes</span>
           </h2>
           <p className="text-xl text-therapy-light-brown max-w-2xl mx-auto">
-            Histórias reais de transformação e crescimento pessoal
+            Nos dias mais pesados, lembre-se de não carregar tudo sozinho.
           </p>
           <p className="text-sm text-therapy-light-brown mt-2">
             *Nomes alterados para preservar a privacidade
@@ -96,7 +96,7 @@ const TestimonialsSection = () => {
               Sua história pode ser a próxima!
             </h3>
             <p className="text-gray-600 mb-4">
-              Junte-se a milhares de pessoas que já transformaram suas vidas com terapia.
+              Junte-se a milhares de pessoas que já transformaram suas vidas com terapia e acolha como um convite para enxergar o seu potencial.
             </p>
             <button 
               onClick={() => handleWhatsAppClick()}
