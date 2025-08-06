@@ -9,7 +9,7 @@ const AudienceSection = () => {
       subtitle: "Apoio emocional para os desafios dessa fase",
       description: "Navegando pelas transformações da adolescência com autoestima e confiança",
       issues: ["Ansiedade escolar", "Autoestima", "Relacionamentos", "Pressão social", "Identidade"],
-      bgColor: "bg-therapy-lavender",
+      bgColor: "bg-gradient-to-br bg-therapy-off-white",
       textColor: "text-therapy-lavender-dark"
     },
     {
@@ -18,8 +18,8 @@ const AudienceSection = () => {
       subtitle: "Autoconhecimento, equilíbrio e saúde mental",
       description: "Desenvolvendo ferramentas para uma vida adulta mais plena e equilibrada",
       issues: ["Ansiedade", "Depressão", "Estresse", "Relacionamentos", "Autoconhecimento", "Mudanças de vida"],
-      bgColor: "bg-therapy-mint",
-      textColor: "text-therapy-mint-dark"
+      bgColor: "bg-gradient-to-br bg-therapy-off-white",
+      textColor: "text-therapy-lavender-dark"
     },
     {
       icon: UserCheck,
@@ -27,8 +27,8 @@ const AudienceSection = () => {
       subtitle: "Diálogo, reconexão e resolução de conflitos", 
       description: "Fortalecendo vínculos e construindo relacionamentos mais saudáveis",
       issues: ["Comunicação", "Conflitos", "Intimidade", "Confiança", "Planejamento futuro"],
-      bgColor: "bg-therapy-sage",
-      textColor: "text-therapy-sage-dark"
+      bgColor: "bg-gradient-to-br bg-therapy-off-white",
+      textColor: "text-therapy-lavender-dark"
     }
   ];
 
@@ -38,7 +38,7 @@ const AudienceSection = () => {
   };
 
   return (
-    <section id="publico" className="py-20 bg-gradient-to-br from-therapy-sage to-white">
+    <section id="publico" className="py-20 bg-gradient-to-br from-therapy-lavender to-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-playfair font-semibold text-gray-900 mb-4">
@@ -59,7 +59,7 @@ const AudienceSection = () => {
                     <audience.icon size={32} className={audience.textColor} />
                   </div>
                   <h3 className="text-2xl font-semibold text-therapy-eerie-black mb-2">{audience.title}</h3>
-                  <p className={`${audience.textColor} font-medium mb-3`}>{audience.subtitle}</p>
+                  <p className={`text-therapy-eerie-black font-medium mb-3`}>{audience.subtitle}</p>
                   <p className="text-therapy-light-gray text-sm leading-relaxed">{audience.description}</p>
                 </div>
                 
