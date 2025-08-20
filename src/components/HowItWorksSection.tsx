@@ -35,14 +35,14 @@ const HowItWorksSection = () => {
       title: "Atendimento Online",
       description: "Terapia por videochamada segura",
       benefits: ["Conforto da sua casa", "Flexibilidade de horários", "Mesma eficácia do presencial"],
-      bgColor: "bg-therapy-mint"
+      bgColor: "bg-gradient-to-br from-therapy-lavender to-white"
     },
     {
       icon: MapPin,
       title: "Atendimento Presencial", 
       description: "Consultório acolhedor e privativo",
       benefits: ["Ambiente profissional", "Contato direto", "Espaço reservado"],
-      bgColor: "bg-therapy-sage"
+      bgColor: "bg-gradient-to-br from-therapy-lavender to-white"
     }
   ];
 

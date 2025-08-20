@@ -9,8 +9,8 @@ const TestimonialsSection = () => {
       text: "No início eu não queria fazer terapia, mas a Dra. Izabelli me deixou muito à vontade. Hoje consigo lidar melhor com a pressão da escola e me sinto mais confiante.",
       rating: 5,
       therapy: "Adolescente",
-      bgColor: "bg-therapy-lavender",
-      textColor: "text-therapy-lavender-dark"
+      bgColor: "bg-therapy-skin-dark",
+      textColor: "bg-therapy-lavender"
     },
     {
       name: "Ana M.",
@@ -34,7 +34,7 @@ const TestimonialsSection = () => {
 
   const renderStars = (rating: number) => {
     return Array.from({ length: rating }, (_, i) => (
-      <Star key={i} size={16} className="fill-therapy-yellow text-therapy-yellow" />
+      <Star key={i} size={16} className="fill-therapy-grayish-orange text-therapy-grayish-orange" />
     ));
   };
 
@@ -44,7 +44,7 @@ const TestimonialsSection = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-therapy-sage to-therapy-blue">
+    <section className="py-20 bg-gradient-to-br from-therapy-lavender to-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-playfair font-semibold text-gray-900 mb-4">
@@ -79,8 +79,8 @@ const TestimonialsSection = () => {
                     <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
                     <p className="text-sm text-gray-500">{testimonial.age}</p>
                   </div>
-                  <div className={`${testimonial.bgColor} px-3 py-1 rounded-full`}>
-                    <span className={`text-xs ${testimonial.textColor} font-medium`}>
+                  <div className="bg-white px-3 py-1 rounded-full text-xs text-therapy-light-brown shadow-sm">
+                    <span>
                       {testimonial.therapy}
                     </span>
                   </div>
