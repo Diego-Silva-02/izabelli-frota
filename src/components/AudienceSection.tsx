@@ -45,8 +45,7 @@ const AudienceSection = () => {
             Quem eu <span className="text-therapy-skin">atendo</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            A cura para um coração apertado talvez seja deixar sair aquelas palavras que nunca foram ditas. E para cada fase da vida ofereço suporte especializado seja
-            para adolescentes, adultos ou casais em suas jornadas de crescimento pessoal.
+            A cura para um coração apertado talvez seja deixar sair aquelas palavras que nunca foram ditas. E para cada fase da vida ofereço suporte especializado seja para adolescentes, adultos ou casais em suas jornadas de crescimento pessoal.
           </p>
         </div>
 

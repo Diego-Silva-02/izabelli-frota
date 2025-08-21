@@ -53,16 +53,23 @@ const AboutSection = () => {
               Olá! Sou a Dra. Izabelli Frota, psicóloga clínica formada pela Universidade de Fortaleza, 
               com formação em Gestalt Terapia, especialização em Terapia Cognitivo-Comportamental e Psicoterapia de Casal. Pós-graduação em transtornos alimentares e obesidade.
             </p>
+
             <p className="text-lg text-therapy-light-gray mb-8 leading-relaxed">
-              Às vezes o peito fica apertado não pelo que falamos, mas
-              <span className="text-therapy-skin-dark"> por aquilo que escondemos</span>
-              . Guardar palavras pode até parecer proteção, 
-              <span className="text-therapy-skin-dark"> mas também sufoca</span>.
-               Permita-se colocar pra fora, dizer o que sente, libertar o que foi silenciado.
-              <span className="text-therapy-skin-dark"> Dar voz aos sentimentos é dar espaço ao alívio e à cura.</span>
+              Como psicóloga, caminho com meus pacientes <span className="text-therapy-skin-dark">por entre suas raízes, onde moram dores, memórias e aprendizados</span>. É nesse solo profundo que se encontram as respostas.
+              Florescer é possível. Sempre será.
             </p>
+
             <p className="text-lg text-therapy-light-gray mb-8 leading-relaxed">
-              Atendendo pacientes brasileiros no exterior em <span className="text-therapy-skin-dark">Vancouver</span> (Canadá), <span className="text-therapy-skin-dark">Alabama</span> (EUA), <span className="text-therapy-skin-dark">Tokyo</span> (Japão), <span className="text-therapy-skin-dark">Bali</span> (Indonésia), <span className="text-therapy-skin-dark">Viena</span> (Austria), <span className="text-therapy-skin-dark">Lisboa</span> (Portugal).
+              Antes do florescer, <span className="text-therapy-skin-dark">existe um trabalho silencioso acontecendo nas raízes</span>.
+              Essa imagem me lembra exatamente disso: a força que vem daquilo que não se vê.
+            </p>
+
+              <p className="text-lg text-therapy-light-gray mb-8 leading-relaxed">
+                Minha nova identidade visual, representada por pétalas irregulares de uma rosa, simboliza <span className="text-therapy-skin-dark">o esplendor do florescer</span>, não como um fim, mas como <span className="text-therapy-skin-dark">um caminho</span>, pois <span className="text-therapy-skin-dark">é nos galhos secos, na história não contada, que tudo começa</span>.
+                Pétalas que simbolizam leveza, sim, mas também <span className="text-therapy-skin-dark">história, coragem e transformação</span>.
+              </p>
+            <p className="text-lg text-therapy-light-gray mb-8 leading-relaxed">
+              Atendendo pacientes brasileiros no exterior em <span className="text-therapy-skin-dark">Vancouver</span> (Canadá), <span className="text-therapy-skin-dark">Alabama</span> (EUA), <span className="text-therapy-skin-dark">Tokyo</span> (Japão), <span className="text-therapy-skin-dark">Bali</span> (Indonésia), <span className="text-therapy-skin-dark">Viena</span> (Austria), <span className="text-therapy-skin-dark">Lisboa</span> (Portugal), <span className="text-therapy-skin-dark">Buenos Aires</span> (Argentina), <span className="text-therapy-skin-dark">Paris</span> (França).
             </p>
             
             <div className="grid sm:grid-cols-2 gap-4 mb-8">
