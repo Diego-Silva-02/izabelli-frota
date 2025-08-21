@@ -77,8 +77,8 @@ const HeroSection = () => {
                 <span>+20 anos de experiência</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-therapy-blue-dark rounded-full"></div>
-                <span>+35 mil atendimentos</span>
+                <div className="w-2 h-2 bg-therapy-skin rounded-full"></div>
+                <span>+17 mil atendimentos</span>
               </div>
             </div>
           </div>
