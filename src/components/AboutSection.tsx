@@ -1,6 +1,7 @@
 
 import { GraduationCap, Heart, Users, Award } from 'lucide-react';
 import LogoImage from '../assets/images/newlogoSmall.jpg';
+import TreeImage from '../assets/images/treeImage.jpg';
 
 const AboutSection = () => {
   const qualifications = [
@@ -60,16 +61,7 @@ const AboutSection = () => {
             </p>
 
             <p className="text-lg text-therapy-light-gray mb-8 leading-relaxed">
-              Antes do florescer, <span className="text-therapy-skin-dark">existe um trabalho silencioso acontecendo nas raízes</span>.
-              Essa imagem me lembra exatamente disso: a força que vem daquilo que não se vê.
-            </p>
-
-              <p className="text-lg text-therapy-light-gray mb-8 leading-relaxed">
-                Minha nova identidade visual, representada por pétalas irregulares de uma rosa, simboliza <span className="text-therapy-skin-dark">o esplendor do florescer</span>, não como um fim, mas como <span className="text-therapy-skin-dark">um caminho</span>, pois <span className="text-therapy-skin-dark">é nos galhos secos, na história não contada, que tudo começa</span>.
-                Pétalas que simbolizam leveza, sim, mas também <span className="text-therapy-skin-dark">história, coragem e transformação</span>.
-              </p>
-            <p className="text-lg text-therapy-light-gray mb-8 leading-relaxed">
-              Atendendo pacientes brasileiros no exterior em <span className="text-therapy-skin-dark">Vancouver</span> (Canadá), <span className="text-therapy-skin-dark">Alabama</span> (EUA), <span className="text-therapy-skin-dark">Tokyo</span> (Japão), <span className="text-therapy-skin-dark">Bali</span> (Indonésia), <span className="text-therapy-skin-dark">Viena</span> (Austria), <span className="text-therapy-skin-dark">Lisboa</span> (Portugal), <span className="text-therapy-skin-dark">Buenos Aires</span> (Argentina), <span className="text-therapy-skin-dark">Paris</span> (França).
+              Atendendo pacientes brasileiros no exterior em <span className="text-therapy-skin-dark">Vancouver</span> (Canadá), <span className="text-therapy-skin-dark">Alabama</span> (EUA), <span className="text-therapy-skin-dark">Tokyo</span> (Japão), <span className="text-therapy-skin-dark">Bali</span> (Indonésia), <span className="text-therapy-skin-dark">Viena</span> (Austria), <span className="text-therapy-skin-dark">Lisboa</span> (Portugal), <span className="text-therapy-skin-dark">Rosário</span> (Argentina), <span className="text-therapy-skin-dark">Lille</span> (França).
             </p>
             
             <div className="grid sm:grid-cols-2 gap-4 mb-8">
@@ -96,6 +88,31 @@ const AboutSection = () => {
                 padrões de pensamento e comportamento que causam sofrimento emocional.
               </p>
             </div>
+          </div>
+          <div>
+            <h2 className="text-4xl font-playfair font-semibold text-gray-900 mb-6">
+              Minha <span className="text-therapy-skin">identidade visual</span>
+            </h2>
+
+            <p className="text-lg text-therapy-light-gray mb-8 leading-relaxed">
+              Antes do florescer, <span className="text-therapy-skin-dark">existe um trabalho silencioso acontecendo nas raízes</span>.
+              Essa imagem me lembra exatamente disso: a força que vem daquilo que não se vê.
+            </p>
+
+              <p className="text-lg text-therapy-light-gray mb-8 leading-relaxed">
+                Minha nova identidade visual, representada por pétalas irregulares de uma rosa, simboliza <span className="text-therapy-skin-dark">o esplendor do florescer</span>, não como um fim, mas como <span className="text-therapy-skin-dark">um caminho</span>, pois <span className="text-therapy-skin-dark">é nos galhos secos, na história não contada, que tudo começa</span>.
+                Pétalas que simbolizam leveza, sim, mas também <span className="text-therapy-skin-dark">história, coragem e transformação</span>.
+              </p>
+            
+            
+          </div>
+          <div className="relative">
+            <div className="absolute inset-0 bg-gradient-to-br from-therapy-light-pink to-therapy-light-pink rounded-3xl transform -rotate-3"></div>
+            <img 
+              src={TreeImage}
+              alt="Dra. Izabelli Frota"
+              className="relative rounded-3xl shadow-xl w-full h-[700px] object-cover"
+            />
           </div>
         </div>
       </div>

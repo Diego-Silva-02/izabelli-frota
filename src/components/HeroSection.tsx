@@ -78,7 +78,7 @@ const HeroSection = () => {
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-therapy-skin rounded-full"></div>
-                <span>+17 mil atendimentos</span>
+                <span>+12.5 mil atendimentos</span>
               </div>
             </div>
           </div>
